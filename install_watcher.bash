@@ -6,11 +6,11 @@ if [ "$(id -u)" -ne 0 ]; then
     exit 1
 fi
 
-# Install required packages
+# Install required Python packages
 echo "Installing necessary Python packages..."
 apt-get update
 apt-get install -y python3 python3-pip
-pip3 install watchdog requests tenacity smtplib schedule
+/usr/bin/python3 -m pip install watchdog requests tenacity schedule
 
 # Setup directory variables
 SCRIPT_DIR="/path/to/your/script"  # Update with actual script directory
