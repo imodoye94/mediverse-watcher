@@ -1,0 +1,43 @@
+[
+    {
+        "directory_to_watch": "/path/to/first/directory",
+        "status_file": "/path/to/first/status.json",
+        "email": "admin1@example.com",
+        "orthanc_server": "http://first.server.com/api",
+        "auth": {
+            "type": "basic",
+            "user": "user1",
+            "password": "password1"
+        },
+		"callback_url": "",
+		"custom_data_send": {},
+		"custom_data_callback": {}
+    },
+    {
+        "directory_to_watch": "/path/to/second/directory",
+        "status_file": "/path/to/second/status.json",
+        "email": "admin2@example.com",
+        "orthanc_server": "http://second.server.com/api",
+        "auth": {
+            "type": "bearer",
+            "token": "bearer_token_here"
+        },
+		"callback_url": "",
+		"custom_data_send": {},
+		"custom_data_callback": {}
+    },
+    {
+        "directory_to_watch": "/path/to/third/directory",
+        "status_file": "/path/to/third/status.json",
+        "email": "admin3@example.com",
+        "orthanc_server": "http://third.server.com/api",
+        "auth": {
+            "type": "custom",
+            "token": "custom_token_here",
+            "header_name": "X-Custom-Auth"
+        },
+		"callback_url": "",
+		"custom_data_send": {},
+		"custom_data_callback": {}
+    }
+]
