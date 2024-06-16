@@ -9,7 +9,7 @@
             "user": "secure_username",
             "password": "secure_password1"
         },
-		"callback_url": "https://backend.hib.to/webhook-test/a748f5d7-c167-42bf-804e-089c0d04123e",
+		"callback_url": "https://backend.hib.to/a748f5d7-c167-42bf-804e-089c0d04123e",
 		"custom_data_send": {},
 		"custom_data_callback": {}
     }
