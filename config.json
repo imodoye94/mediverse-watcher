@@ -1,0 +1,16 @@
+[
+    {
+        "directory_to_watch": "/path/to/first/directory",
+        "status_file": "/path/to/first/status.json",
+        "email": "imodoye@mediverse.ai",
+        "orthanc_server": "https://orthanc.hib.to/instances",
+        "auth": {
+            "type": "basic",
+            "user": "secure_username",
+            "password": "secure_password1"
+        },
+		"callback_url": "",
+		"custom_data_send": {},
+		"custom_data_callback": {}
+    }
+]
